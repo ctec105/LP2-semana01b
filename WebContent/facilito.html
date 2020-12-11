@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Título de la sesión01b</title>
+</head>
+
+<!-- CUERPO DE LA PAGINA-->
+<body>
+	
+	<!-- CREAMOS UN FORMULARIO HTML. DENTRO PODEMOS DEFINIR CAMPOS (CONTROLES) -->
+	<form action="resultado.jsp">
+		<div style="float: right;">Lenguaje de programación II - Sesión01b</div>
+		<div style="color: red;font-size: 2em"><p><em>Bienvenido a su tienda favorita</em></p></div>
+		<div>
+			<table style="color: green;">
+				<tr>
+					<td>Nombre:</td>
+					<td><input type="text" name="nombre" size="10"></td>
+				</tr>
+				<tr>
+					<td>Dirección:</td>
+					<td><textarea name="direccion" rows="2" cols="20"></textarea></td>
+				</tr>
+				<tr>
+					<td>Deporte favorito:</td>
+					<td>
+						<input type="radio" name="deporte" value="Natación"> Natación <br>
+				     	<input type="radio" name="deporte" value="Vóley"> Vóley <br>
+				     	<input type="radio" name="deporte" value="Fútbol"> Fútbol  <br>
+				     	<input type="radio" name="deporte" value="Básquet"> Básquet <br>
+					</td>
+				</tr>
+					<!-- un botón tipo submit permite que al hacerle clic, invoque 
+						 a lo que hayamos definido en el atributo action del form -->
+				<tr>
+					<td colspan="2" align="right"><input type="submit" value="Enviar"></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+</body>
+</html>
