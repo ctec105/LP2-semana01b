@@ -8,5 +8,5 @@ Ver el uso de la etiqueta form para invocar un JSP y recuperar los datos de un f
 https://joseltoro.blogspot.com/2017/04/2-crear-un-dynamic-web-java-en-eclipse.html
 
 # Herramientas:
-Eclipse (Entorno de desarrollo integrado)
-Apache Tomcat (Contenedor de servlets)
+- Eclipse (Entorno de desarrollo integrado)
+- Apache Tomcat (Contenedor de servlets)
